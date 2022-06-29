@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>USB PHARM</title>
+    <link href="./stylesheets/style.css" rel="stylesheet" type="text/css"/>
+    <script src="javascripts/jquery-3.6.0.js" charset="utf-8"></script>
+    <script src="javascripts/java-script.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+  <body>
+    <div class="shows">
+   	<div><img class="" src="images/plak1.jpg" alt=""></div>
+   	<div><img class="" src="images/plak2.jpg" alt=""></div>
+   	<div><img class="" src="images/plak3.jpg" alt=""></div>
+   	<div><img class="" src="images/plak4.jpg" alt=""></div>
+   	<div><img class="" src="images/plak5.jpg" alt=""></div>
+   </div>
+   <div class="home">
+     <a href="index.html"><img src="images/home.png"></a>
+   </div>
+
+   <p style="text-align: center;">
+   	<a class="snp-form-btn" href="#" onclick="location.reload(); return false;">обновить</a>
+   </p>
+   <style type="text/css">
+   .shows {
+   	overflow: hidden;
+   }
+   .shows div {
+   	display: none;
+   	text-align: center;
+   	float: left;
+   	color: #fff;
+   	line-height: 100px;
+    padding-top: 41px;
+   	margin: 10px;
+   }
+   </style>
+
+   <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
+   <script>
+   $('.shows div:eq(0)').show(300, function(){
+   	$(this).next().show(300, arguments.callee);
+   });
+   </script>
+
+</body>
+</html>

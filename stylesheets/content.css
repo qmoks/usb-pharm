@@ -1,0 +1,202 @@
+body{
+  background-color: #2D2D2D;
+  overflow-x: hidden;
+  width: 100%;
+  min-width:960px;
+}
+.block{
+  /* border: 5px solid red; */
+  /* background-color: #CCCCCC; */
+  max-width: 1200px;
+  height: 700px;
+  margin: 0px auto;
+}
+.button1{
+  position: relative;
+  left: 127px;
+  top: 2px;
+  border-radius: 0px;
+}
+.button2{
+  position: relative;
+  left: 470px;
+  top: -171px;
+  border-radius: 0px;
+}
+.button3{
+  position: relative;
+  left: 870px;
+  top: -362px;
+  border-radius: 0px;
+}
+.button4{
+  position: relative;
+  left: 125px;
+  top: -370px;
+  border-radius: 0px;
+}
+.button5{
+  position: relative;
+  left: 510px;
+  top: -574px;
+  border-radius: 0px;
+}
+.button6{
+  position: relative;
+  left: 834px;
+  top: -762px;
+  border-radius: 0px;
+}
+.button7{
+  position: relative;
+  left: 90px;
+  top: -740px;
+  border-radius: 0px;
+}
+.panel {
+  z-index: 2;
+}
+.logo {
+position: relative;
+left: 200px;
+top: -960px;
+border-radius: 0px;
+z-index: 3
+}
+
+#img_container {
+position:relative;
+height:281px;
+width:450px;
+margin:0 auto;
+}
+
+#img_container img {
+position:absolute;
+left:0;
+-webkit-transition: opacity 0.2s ease-in-out;
+-moz-transition: opacity 0.2s ease-in-out;
+-o-transition: opacity 0.2s ease-in-out;
+transition: opacity 0.2s ease-in-out;
+}
+
+@-webkit-keyframes cf3FadeInOut {
+0% {
+opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+@-moz-keyframes cf3FadeInOut {
+0% {
+opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+@-o-keyframes cf3FadeInOut {
+0% {
+opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+@keyframes cf3FadeInOut {
+0% {
+opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+#img_container img.top {
+-webkit-animation-name: cf3FadeInOut;
+-webkit-animation-timing-function: ease-in-out;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-duration: 1s;
+-webkit-animation-direction: alternate;
+
+-moz-animation-name: cf3FadeInOut;
+-moz-animation-timing-function: ease-in-out;
+-moz-animation-iteration-count: infinite;
+-moz-animation-duration: 1s;
+-moz-animation-direction: alternate;
+
+-o-animation-name: cf3FadeInOut;
+-o-animation-timing-function: ease-in-out;
+-o-animation-iteration-count: infinite;
+-o-animation-duration: 1s;
+-o-animation-direction: alternate;
+
+<p style="text-align: center;">animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 1s;
+animation-direction: alternate;
+}
+
+.window {
+  position: relative;
+  top: 20px;
+  left: 220px;
+}
+.window2 {
+  position: relative;
+  top: 20px;
+  left: 120px;
+}
+.snp-form-btn {
+  font-family: system-ui;
+}
+/* .fade {
+  position: relative;
+  top: 50px;
+  left:50px;
+} */
+
+.home {
+  position: relative;
+  top: -10px;
+  left: 13px;
+}
+.home2 {
+  position: relative;
+  bottom: 30px;
+  left: 13px;
+}
+.home3 {
+  position: relative;
+  bottom: 100px;
+  left: 13px;
+}
